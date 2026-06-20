@@ -145,16 +145,16 @@ Sebelum menggambar, langkah pertama selalu: **kenali dulu jenis kurvanya** dari 
 
 | Bentuk Persamaan | Nama Kurva | Ciri Bentuk |
 |---|---|---|
-| $\theta=\beta$ | Garis | Lurus melalui origin |
-| $r\cos\theta=a$ atau $r\sin\theta=b$ | Garis | Vertikal / horizontal |
-| $r=a$ | Lingkaran | Pusat origin, radius $\lvert a\rvert$ |
-| $r=2a\cos\theta$ / $r=2b\sin\theta$ | Lingkaran | Pusat di sumbu-$x$/$y$, menyentuh origin |
-| $r=a\pm a\cos\theta$ / $a\pm a\sin\theta$ | **Kardioid** | Bentuk hati, 1 lekukan di pole |
-| $r=a\pm b\cos\theta,\ a<b$ | **Limaçon loop dalam** | Ada loop kecil di tengah |
-| $r=a\pm b\cos\theta,\ a>b$ | **Limaçon tanpa loop** | Oval tidak simetris, tidak menyentuh pole |
-| $r=a\cos(n\theta)$ / $r=a\sin(n\theta)$ | **Rose curve (kurva mawar)** | $n$ kelopak jika $n$ ganjil; $2n$ kelopak jika $n$ genap |
-| $r^2=a^2\cos(2\theta)$ / $r^2=a^2\sin(2\theta)$ | **Lemniscate** | Bentuk angka 8 / simbol tak terhingga |
-| $r=a\theta$ | **Spiral Archimedes** | Melingkar keluar terus seperti per/spiral |
+| θ = β | Garis | Lurus melalui origin |
+| r cos θ = a atau r sin θ = b | Garis | Vertikal / horizontal |
+| r = a | Lingkaran | Pusat origin, radius \|a\| |
+| r = 2a cos θ atau r = 2b sin θ | Lingkaran | Pusat di sumbu x/y, menyentuh origin |
+| r = a ± a cos θ atau r = a ± a sin θ | Kardioid | Bentuk hati, 1 lekukan di pole |
+| r = a ± b cos θ, a < b | Limaçon loop dalam | Ada loop kecil di tengah |
+| r = a ± b cos θ, a > b | Limaçon tanpa loop | Oval tidak simetris |
+| r = a cos(nθ) atau r = a sin(nθ) | Rose curve | n kelopak jika n ganjil, 2n jika n genap |
+| r² = a² cos(2θ) atau r² = a² sin(2θ) | Lemniscate | Bentuk angka 8 |
+| r = aθ | Spiral Archimedes | Spiral keluar terus |
 
 > 💡 **Catatan rose curve:** jumlah kelopak $=n$ jika $n$ ganjil, atau $2n$ jika $n$ genap. Contoh: $r=3\sin(2\theta)$ punya $4$ kelopak (karena $n=2$, genap). $r=3\sin(3\theta)$ punya $3$ kelopak (karena $n=3$, ganjil).
 
@@ -162,11 +162,11 @@ Sebelum menggambar, langkah pertama selalu: **kenali dulu jenis kurvanya** dari 
 
 Sebelum membuat tabel titik, cek dulu simetrinya — ini menghemat banyak pekerjaan karena kamu hanya perlu menghitung separuh (atau bahkan seperempat) titik, sisanya tinggal dicerminkan.
 
-| Uji | Cara | Jika Lolos, Kurva Simetris Terhadap |
+| Uji | Cara | Simetri Terhadap |
 |---|---|---|
-| Ganti $\theta\to-\theta$ | Apakah persamaan tetap sama? | Sumbu kutub (sumbu-$x$, $\theta=0$) |
-| Ganti $\theta\to\pi-\theta$ | Apakah persamaan tetap sama? | Garis $\theta=\pi/2$ (sumbu-$y$) |
-| Ganti $r\to-r$ (atau $\theta\to\theta+\pi$) | Apakah persamaan tetap sama? | Pole (titik asal) |
+| θ → -θ | Persamaan tetap sama? | Sumbu kutub (sumbu x) |
+| θ → π - θ | Persamaan tetap sama? | Sumbu y |
+| r → -r atau θ → θ + π | Persamaan tetap sama? | Pole (origin) |
 
 **Contoh cepat:** untuk $r=3+3\cos\theta$ — ganti $\theta\to-\theta$: $\cos(-\theta)=\cos\theta$, persamaan tetap sama → **simetris terhadap sumbu kutub**. Ini cocok dengan kardioid yang memang simetris terhadap sumbu-$x$.
 
