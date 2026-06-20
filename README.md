@@ -1,0 +1,1 @@
+# kalkulus-2-polar-baris-deret
