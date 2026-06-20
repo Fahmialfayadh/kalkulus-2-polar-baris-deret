@@ -49,7 +49,7 @@ $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{g'(t)}{f'(t)} \quad (\text{dengan 
 
 ### B. Turunan Kedua (Kecekungan Kurva)
 Untuk mencari kecekungan (*concavity*) kurva, kita menurunkan kembali hasil $\frac{dy}{dx}$ terhadap $x$. Menggunakan aturan rantai:
-$$\frac{d^2y}{dx^2} = \frac{\frac{d}{dx}\left(\frac{dy}{dx}\right)}{dx/dt}$$
+$$\frac{d^2y}{dx^2} = \frac{\frac{d}{dt}\left(\frac{dy}{dx}\right)}{dx/dt}$$
 
 ---
 
