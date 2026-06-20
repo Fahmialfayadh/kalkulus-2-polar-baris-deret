@@ -1,0 +1,4 @@
+{
+    "workbench.editor.defaultBinaryEditor": "vscode.markdown.preview.editor",
+    "markdown.preview.breaks": true,
+}
